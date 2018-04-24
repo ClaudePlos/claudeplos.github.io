@@ -1,0 +1,1 @@
+document.writeln('<script type="text/javascript" src="http://s4.hit.stat24.com/_'+(new Date()).getTime()+'/script.js?id=bVpK3wbvx01IGP3zLOJSC2X2zZB1o87EJoKQZL1n8_b.z7"></script>');

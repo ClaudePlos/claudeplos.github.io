@@ -1,0 +1,346 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+  <title>Claude Page - Klaudiusz Skowro&ntilde;ski</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- ImageReady Preload Script (index.psd) -->
+
+  <script type="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		home_over = newImage("images/home-over.gif");
+		about_over = newImage("images/about-over.gif");
+		adventures_over = newImage("images/adventures-over.gif");
+		join_now__over = newImage("images/join-now%21-over.gif");
+		preloadFlag = true;	}
+}
+// -->
+  </script><!-- End Preload Script -->
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="0" topmargin="0" onload="preloadImages();" bgcolor="#ffffff" marginheight="0" marginwidth="0">
+<center>
+<!-- ImageReady Slices (index.psd) -->
+<table class="frame" border="0" cellpadding="0" cellspacing="0" width="775">
+    <tbody>
+    <tr>
+      <td rowspan="17" valign="top" width="27"><img src="images/main1.gif" alt="" height="680" width="27"> 
+      </td>
+      <td colspan="6" rowspan="2" align="center" valign="middle"> <img src="images/title.gif" alt="" align="middle" height="92" width="200"></td>
+      <td colspan="9"> <img src="images/main7.gif" alt="" height="55" width="449"></td>
+      <td rowspan="17" valign="top" width="27"><img src="images/main8.gif" alt="" align="top" height="680" width="27"> 
+      </td>
+      <td width="1"> <img src="images/spacer.gif" alt="" height="55" width="1"></td>
+    </tr>
+    <tr>
+      <td width="102"> <a href="index.html" onmouseover="window.status='home'; changeImages('home', 'images/home-over.gif'); return true;" onmouseout="window.status=''; changeImages('home', 'images/home.gif'); return true;"> 
+        <img name="home" src="images/home.gif" alt="home" border="0" height="37" width="102"></a></td>
+      <td colspan="2"> <a href="about.html" onmouseover="window.status='about'; changeImages('about', 'images/about-over.gif'); return true;" onmouseout="window.status=''; changeImages('about', 'images/about.gif'); return true;"> 
+        <img name="about" src="images/about.gif" alt="about" border="0" height="37" width="106"></a></td>
+      <td colspan="3"> <a href="adventure.swf" onmouseover="window.status='adventures'; changeImages('adventures', 'images/adventures-over.gif'); return true;" onmouseout="window.status=''; changeImages('adventures', 'images/adventures.gif'); return true;"> 
+        <img name="adventures" src="images/adventures.gif" alt="adventures" border="0" height="37" width="107"></a></td>
+      <td width="106"> <a href="portfolio.html" onmouseover="window.status='join now!'; changeImages('join_now_', 'images/join-now%21-over.gif'); return true;" onmouseout="window.status=''; changeImages('join_now_', 'images/join-now%21.gif'); return true;"> 
+        <img name="join_now_" src="images/join-now%21.gif" alt="join now!" border="0" height="37" width="106"></a></td>
+      <td colspan="2"> <img src="images/main9.gif" alt="" height="37" width="28"></td>
+      <td width="1"> <img src="images/spacer.gif" alt="" height="37" width="1"></td>
+    </tr>
+    <tr>
+      <td colspan="8"> <img src="images/main2_por.gif" alt="" height="138" width="452"></td>
+      <td colspan="7" rowspan="3"> <img src="images/main6_por.gif" alt="" height="218" width="269"></td>
+      <td width="1"> <img src="images/spacer.gif" alt="" height="138" width="1"></td>
+    </tr>
+    <tr>
+      <td rowspan="2" width="40"> <img src="images/main3_por.gif" alt="" height="80" width="40"></td>
+      <td colspan="3"> <a href="adventure.swf" onmouseover="window.status='start your adventure';  return true;" onmouseout="window.status='';  return true;"> <img src="images/start-your-adventure_por.gif" alt="start your adventure" border="0" height="20" width="194"></a></td>
+      <td colspan="4" rowspan="2"> <img src="images/main5_por.gif" alt="" height="80" width="218"></td>
+      <td width="1"> <img src="images/spacer.gif" alt="" height="20" width="1"></td>
+    </tr>
+    <tr>
+      <td colspan="3"> <img src="images/main4_por.gif" alt="" height="60" width="194"></td>
+      <td width="1"> <img src="images/spacer.gif" alt="" height="60" width="1"></td>
+    </tr>
+    <tr>
+      <td colspan="10"> </td>
+      <td colspan="4" rowspan="2"> ---</td>
+      <td rowspan="10" width="14">&nbsp; </td>
+      <td width="1"> <img src="images/spacer.gif" alt="" height="49" width="1"></td>
+    </tr>
+    <tr>
+      <td colspan="8" rowspan="2" align="left" valign="top"> 
+      
+
+************Text center 
+    <br>  
+<b>Grafiki</b><br><br>
+
+<br><b>-- Jezeli nie otwieraja sie KARTY PRACY - to pewnie podwójne wpisy - sleect mozna rozbudowac np. dla danego obiekti a nie konkretnego grafiku</b>
+<br>select count(ks_prc_id), ks_prc_id from NGR_KARTY_SZCZEGOLY WHERE KS_PRC_ID IN (
+<br>SELECT DISTINCT PRACOWNIK_ID id FROM NGR_WIERSZE_GRAFIKOW WHERE GRAFIK_ID IN (
+<br>SELECT ID FROM NGR_GRAFIKI
+<br>WHERE NAZWA LIKE '%Z119%TRANSPORT%'
+<br>AND OKRES_ID = 26
+<br>AND USUNIETY = 'N' 	
+<br>AND UZ = 'N' 
+<br>)
+<br>)
+<br>and KS_OKRES_ID = 28
+<br>AND ZAKONCZONA = 'N'
+<br>group by ks_prc_id
+
+<br>
+<br>
+<br><b>--zatwierdzanie kart na danym obiekcie dla wszystkich kart znajdujacych sie na grafiku</b> 
+<br>UPDATE	 
+<br>NGR_KARTY_SZCZEGOLY set ZAKONCZONA='N' WHERE KS_PRC_ID IN (
+<br>--SELECT * FROM NGR_KARTY_SZCZEGOLY,(
+<br>SELECT DISTINCT PRACOWNIK_ID id FROM NGR_WIERSZE_GRAFIKOW WHERE GRAFIK_ID IN (
+<br>SELECT ID FROM NGR_GRAFIKI
+<br>WHERE NAZWA LIKE '%Z119%TRANSPORT%'
+<br>AND OKRES_ID = 26 --- okres rozliczeniowy, trzeba sprawdzic jaki okeres jest dla danego okresu rozliczeniowego
+<br>AND USUNIETY = 'N' 	
+<br>AND UZ = 'N' 
+<br>)
+<br>)
+<br>and KS_OKRES_ID = 28 ---- okres miesieczny, trzeba sprawdzic jaki jest dla danego miesiaca
+<br>AND ZAKONCZONA = 'N'
+<br>--AND NGR_KARTY_SZCZEGOLY.KS_PRC_ID=cos.id --- dla jednej osoby
+<br>
+<br>
+
+<br><b>-- sprawdzenie zdublowanych wpisow, PRZYCZYNA NIE PRZEGRYWANIA SIE GRAFIKOW</b>
+<br>select wiersz_grafika_id, data, count(data) from ngr_wpisy 
+<br>where wiersz_grafika_id in (select id from NGR_WIERSZE_GRAFIKOW WHERE GRAFIK_ID = 19727647)
+<br>group by wiersz_grafika_id, data
+<br><br><br>
+
+<b>Egeria</b><br>
+<b>Datapump</b>
+<br><b> -- sprawdzenie uprawnien na danej tabelce lub widoku</b>
+<br>SELECT grantee, table_name, privilege
+<br>FROM user_tab_privs_made WHERE table_name like 'DBA_USERS'
+<br><br><b>-- sprawdzenie do czego ma uprawnienia dany user</b>
+<br>SELECT grantee, table_name, privilege
+<br>FROM user_tab_privs_made WHERE grantee = 'EG01_UZYTKOWNIK'
+<br>
+<br><b>-- herbatka i brak dostepu do userow </b>
+<br> problemem byl brak uprawnien SELECT dla roli EG01_UZYTKOWNIK do tabeli SYS.DBA_AUDIT_TRAIL
+<br>
+
+
+
+      </td>
+      <td width="1"> <img src="images/spacer.gif" alt="" height="9" width="1"></td>
+    </tr>
+    <tr> 
+      <td rowspan="4" width="41"> --- </td>
+      <td colspan="3" rowspan="4" align="left" valign="top"> <span class="text1">SQL</span><br>
+
+
+///Text right
+<br><b>PZU</b>
+<br><b> -- sprawdzenie pzu, wyrownanie zaleglych skladek </b>
+<br>select lst_numer, lst_data_obliczen, prc_nazwisko, prc_imie, sk_wartosc 
+<br>from ek_skladniki, ek_listy, ek_def_skladnikow, ek_pracownicy
+<br>where lst_id=sk_lst_id
+<br>and sk_prc_id = prc_id
+<br>and dsk_id=sk_dsk_id
+<br>and dsk_kod = '434'
+<br>and lst_data_obliczen = '2010-09-01'
+<br>order by 3 desc 
+<br>
+<br><b>-- dublowane potracenia, komu potracili wiecej niz 1 raz</b>
+<br>select count(prc_pesel), prc_pesel
+<br>from 
+<br>(select nvl(prc_numer,'0') prc_numer, prc_pesel, prc_nazwisko, prc_imie, sk_prc_id 
+<br>, to_char(lst_data_obliczen,'YYYY-MM') data_obliczen, lst_data_wyplaty 
+<br>, sk_wartosc wart_pzu, lst_id, lst_drl_kod 
+<br>from ek_listy, ek_skladniki, ek_pracownicy 
+<br>where sk_lst_id=lst_id 
+<br>and sk_prc_id=prc_id 
+<br>and sk_dsk_id=102087 
+<br>and sk_status = 1 
+<br>and to_char(lst_data_obliczen,'YYYY-MM') = substr(:okres,1,4)||'-'||substr(:okres,5,2)) a 
+<br>full outer join 
+<br>(select * from nap_pzu where pzu_okres = substr(:okres,1,4)||'-'||substr(:okres,5,2)) b  
+<br>on pzu_pesel=prc_pesel 
+<br>and pzu_okres=data_obliczen 
+<br>group by prc_pesel having count(prc_pesel) > 1
+<br>order by 1 desc
+
+
+
+      <td width="1"> <img src="images/spacer.gif" alt="" height="51" width="1"></td>
+    </tr>
+    <tr>
+      <td colspan="3"> <img src="images/sup1.gif" alt="" height="55" width="157"></td>
+      <td colspan="6" rowspan="7" align="left" valign="top"> 
+        
+        
+///////// <b>Egeria - KG</b><br>
+Ksiegowania: <br><br>
+GM Materaily: <br>
+PZ__ - WN 314 MA 301 <br>
+RWM - WN 5__ MA 314 <br>
+<br>
+GM Srodki Trwale Automat: <br>
+PZ__ - WN 315 MA 301 <br>
+RWM - WN 317 MA 315 <br>
+OTW - WN 011 MA 317   <br>
+<br>
+GM Srodki Trwale Recznie: <br> 
+FZM - WN 301(netto) i 221(vat) MA 200(brutto)<br> 
+OT_ - WN 011 MA 301 <br>       
+
+      </td>
+
+      <td rowspan="7" align="left" valign="top" width="16">&nbsp;</td>
+
+      <td width="1"> <img src="images/spacer.gif" alt="" height="55" width="1"></td>
+
+    </tr>
+
+    <tr>
+ 
+      <td colspan="2" rowspan="6"> </td>
+
+      <td rowspan="6" align="left" valign="top" width="114"> 
+        
+///////////
+        
+     
+
+        
+      
+
+      </td>
+
+      <td width="1"> <img src="images/spacer.gif" alt="" height="8" width="1"></td>
+
+    </tr>
+
+    <tr>
+ 
+      <td width="1"> <img src="images/spacer.gif" alt="" height="12" width="1"></td>
+
+    </tr>
+
+    <tr>
+ 
+      <td colspan="4" rowspan="2"> </td>
+
+      <td width="1"> <img src="images/spacer.gif" alt="" height="38" width="1"></td>
+
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+ 
+
+      </td>
+
+      <td width="1"> <img src="images/spacer.gif" alt="" height="37" width="1"></td>
+
+    </tr>
+
+    <tr>
+ 
+      <td height="91" width="1"> <img src="images/spacer.gif" alt="" height="48" width="1"></td>
+
+    </tr>
+
+    <tr>
+ 
+      <td colspan="15"> <img src="images/down.gif" alt="" height="14" width="721"></td>
+
+      <td width="1"> <img src="images/spacer.gif" alt="" height="14" width="1"></td>
+
+    </tr>
+
+    <tr>
+ 
+      <td colspan="5" class="text6" align="center" valign="middle"> Copyright &copy; 
+        Poland<br>
+
+        designed by <a href="mail%20to:%20claude-plos@o2.pl" target="_blank" class="a">claude-plos@o2.pl</a> 
+      </td>
+
+      <td colspan="10" class="text7" align="center" valign="middle"> <a href="index.html">Home</a> 
+        | <a href="about.html">About Me</a> | <a href="portfolio.html">Portfolio</a> 
+        | <a href="portdraw.html">Portdraw</a> |<a href="cv.html">CV</a> |<a href="http://www.kwiaciarnia5.republika.pl">Florost's 
+        Page</a> | <a href="http://polalewik.w.interia.pl">Wife Page</a> | <a href="download.html">Download</a> 
+        | <a href="contact.html">Contact </a></td>
+
+      <td width="1"></td>
+
+      <td width="1"> <img src="images/spacer.gif" alt="" height="35" width="1"></td>
+
+    </tr>
+
+    <tr>
+ 
+      <td width="27"> <img src="images/spacer.gif" alt="" height="1" width="27"></td>
+
+      <td width="40"> <img src="images/spacer.gif" alt="" height="1" width="40"></td>
+
+      <td width="3"> <img src="images/spacer.gif" alt="" height="1" width="3"></td>
+
+      <td width="114"> <img src="images/spacer.gif" alt="" height="1" width="114"></td>
+
+      <td width="77"> <img src="images/spacer.gif" alt="" height="1" width="77"></td>
+
+      <td width="2"> <img src="images/spacer.gif" alt="" height="1" width="2"></td>
+
+      <td width="36"> <img src="images/spacer.gif" alt="" height="1" width="36"></td>
+
+      <td width="102"> <img src="images/spacer.gif" alt="" height="1" width="102"></td>
+
+      <td width="78"> <img src="images/spacer.gif" alt="" height="1" width="78"></td>
+
+      <td width="28"> <img src="images/spacer.gif" alt="" height="1" width="28"></td>
+
+      <td width="16"> <img src="images/spacer.gif" alt="" height="1" width="16"></td>
+
+      <td width="41"> <img src="images/spacer.gif" alt="" height="1" width="41"></td>
+
+      <td width="50"> <img src="images/spacer.gif" alt="" height="1" width="50"></td>
+
+      <td width="106"> <img src="images/spacer.gif" alt="" height="1" width="106"></td>
+
+      <td width="14"> <img src="images/spacer.gif" alt="" height="1" width="14"></td>
+
+      <td width="14"> <img src="images/spacer.gif" alt="" height="1" width="14"></td>
+
+      <td width="27"> <img src="images/spacer.gif" alt="" height="1" width="27"></td>
+
+      <td width="1"></td>
+
+    </tr>
+
+  
+  </tbody>
+</table>
+
+<!-- End ImageReady Slices -->
+</center>
+</body>
+</html>
